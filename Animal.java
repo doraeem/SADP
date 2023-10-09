@@ -1,5 +1,4 @@
-
-
+// Task-4 (Interface Segregation)
 
 interface  Animal{
     void eat();
