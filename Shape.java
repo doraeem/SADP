@@ -1,9 +1,8 @@
-// Define an interface
+// Task-7 Object Creation(Interface passed as parameter in Constructor)
+
 interface Shape {
     double calculateArea();
 }
-
-// Create classes that implement the interface
 class Circle implements Shape {
     private double radius;
 
@@ -16,7 +15,6 @@ class Circle implements Shape {
         return Math.PI * radius * radius;
     }
 }
-
 class Rectangle implements Shape {
     private double width;
     private double height;
@@ -31,8 +29,6 @@ class Rectangle implements Shape {
         return width * height;
     }
 }
-
-// Another class that takes a Shape as a parameter in its constructor
 class AreaCalculation {
     private Shape shape;
 
